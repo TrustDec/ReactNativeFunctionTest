@@ -6,5 +6,7 @@
 
 import React, { Component } from 'react';
 import { AppRegistry } from 'react-native';
-import Index from './src';
-AppRegistry.registerComponent('ReactNative41', () => Index);
+import TextInputDemo from './src/Api/textInput';
+import DatePicker from './src/Api/datePickerAndroid';
+import AsyncAwait from './src/Es6/AsyncAwait';
+AppRegistry.registerComponent('ReactNative41', () => AsyncAwait);
