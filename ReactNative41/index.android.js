@@ -9,4 +9,5 @@ import { AppRegistry } from 'react-native';
 import TextInputDemo from './src/Api/textInput';
 import DatePicker from './src/Api/datePickerAndroid';
 import AsyncAwait from './src/Es6/AsyncAwait';
-AppRegistry.registerComponent('ReactNative41', () => AsyncAwait);
+import Tabcontrol from './src/Component/ReactNativeTabcontrol';
+AppRegistry.registerComponent('ReactNative41', () => Tabcontrol);

@@ -14,9 +14,9 @@ function sleep(timeout) {
 }
 
 async function main() {  
-    console.time('how long did I sleep');
+    // console.time('how long did I sleep');
     await sleep(10);
-    console.timeEnd('how long did I sleep');
+    // console.timeEnd('how long did I sleep');
 }
 main();
 export default class AsyncAwait extends Component {
